@@ -1,0 +1,15 @@
+{
+  "name": "webbies-BBC-News-2013",
+  "repository": {
+    "type": "git", 
+    "url": "http://github.com/maslen/webbies-BBC-News-2013"
+  },
+  "description": "Pages for webby nominations.",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt":                            "~0.4.0",
+    "grunt-contrib-copy":               "~0.4.1",
+    "grunt-contrib-watch":              "~0.5.3",
+    "grunt-multi-lang-site-generator":  "git://github.com/BBCVisualJournalism/grunt-multi-lang-site-generator.git#master"
+  }
+}
