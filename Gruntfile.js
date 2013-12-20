@@ -19,6 +19,7 @@ module.exports = function (grunt) {
                 },
                 files: {
                     "category-handheld.html": "category-handheld.html.tmpl",
+                    "category-best-practices.html": "category-best-practices.html.tmpl",
                     "category-website.html":  "category-website.html.tmpl",
                     "category-website-content-marketing-twitter.html":  "category-social-content-marketing-twitter.html.tmpl",
                     "category-website-content-marketing-facebook.html":  "category-social-content-marketing-facebook.html.tmpl"
