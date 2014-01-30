@@ -16,6 +16,9 @@ module.exports = function (grunt) {
                     vocabs:             ['english'],
                     vocab_directory:    'assets',
                     template_directory: 'assets',
+                    data: {
+                        img_url: 'img/bbc-news-logo.jpg'
+                    }
                 },
                 files: {
                     "category-handheld.html": "category-handheld.html.tmpl",
