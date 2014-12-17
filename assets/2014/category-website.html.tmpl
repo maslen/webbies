@@ -1,37 +1,4 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-<meta http-equiv="content-language" content="en" />
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-<style>
-body {
-    font-family: sans-serif;
-    font-size: 100%;
-    font-weight: 300;
-    margin: 0;
-}
-li {
-    margin-bottom: 1em;
-}
-.logo {
-    display: block;
-    margin-bottom: 1em;
-}
-.main {
-    margin: 1em 1em 2em;
-}
-@media screen and (min-width: 600px) {
-    .main {
-        margin: 1em auto 2em;
-        width: 600px;
-    }
-}
-</style>
-</head>
-<body>
-<div class="main">
-    <img src="img/bbc-news-logo.jpg" class="logo" />
+<%= include('includes/top.tmpl') %>
 
 <style>
 .logo {
@@ -120,6 +87,4 @@ Quick and frequent updates follow, with news stories complemented by video, mult
  
 <p>In the US, the <a href="http://www.bbc.co.uk/news/world-us-canada-28843888">Pop Up</a> series of video reports saw the BBC's first mobile bureau set up - its team travelling to a new town each month to engage with community residents and tell their stories.</p>
 
-</div>
-</body>
-</html>
+<%= include('includes/bottom.tmpl') %>

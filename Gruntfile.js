@@ -1,6 +1,6 @@
 module.exports = function (grunt) {
 
-    var webbies_year = '2013';
+    var webbies_year = '2014';
 
     grunt.initConfig({
         copy: {
@@ -24,15 +24,8 @@ module.exports = function (grunt) {
                     }
                 },
                 files: {
-                    "category-handheld.html": "category-handheld.html.tmpl",
-                    "category-best-practices.html": "category-best-practices.html.tmpl",
                     "category-website.html":  "category-website.html.tmpl",
-                    "category-website-content-marketing-twitter.html":  "category-social-content-marketing-twitter.html.tmpl",
-                    "category-website-content-marketing-facebook.html":  "category-social-content-marketing-facebook.html.tmpl",
-                    "100-women.html": "100-women.html.tmpl",
-                    "africa-beats.html": "africa-beats.html.tmpl",
-                    "class-calculator.html": "class-calculator.html.tmpl",
-                    "my-city.html": "my-city.html.tmpl"
+                    "category-social-media.html":  "category-social-media.html.tmpl"
                 }
             },
         },
