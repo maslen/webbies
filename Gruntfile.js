@@ -8,7 +8,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd:    'assets/' + webbies_year,
-                    src:    ['img/*'], 
+                    src:    ['img/**'], 
                     dest:   'english'
                 }]
             },
