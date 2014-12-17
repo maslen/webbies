@@ -1,10 +1,13 @@
 module.exports = function (grunt) {
+
+    var webbies_year = '2013';
+
     grunt.initConfig({
         copy: {
             default: {
                 files: [{
                     expand: true,
-                    cwd:    'assets',
+                    cwd:    'assets/' + webbies_year,
                     src:    ['img/*'], 
                     dest:   'english'
                 }]
@@ -14,8 +17,8 @@ module.exports = function (grunt) {
             default: {
                 options: {
                     vocabs:             ['english'],
-                    vocab_directory:    'assets',
-                    template_directory: 'assets',
+                    vocab_directory:    'assets/' + webbies_year,
+                    template_directory: 'assets/' + webbies_year,
                     data: {
                         img_url: 'img/bbc-news-logo.jpg'
                     }
@@ -46,5 +49,5 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-multi-lang-site-generator');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.registerTask('default',     ['multi_lang_site_generator:default', 'copy']);
+    grunt.registerTask('default', ['multi_lang_site_generator:default', 'copy']);
 };
