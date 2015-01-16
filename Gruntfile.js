@@ -24,9 +24,10 @@ module.exports = function (grunt) {
                     }
                 },
                 files: {
-                    "category-website.html":      "category-website.html.tmpl",
-                    "category-social-media.html": "category-social-media.html.tmpl",
-                    "category-mobile.html":       "category-mobile.html.tmpl"
+                    "category-website.html":             "category-website.html.tmpl",
+                    "category-social-media.html":        "category-social-media.html.tmpl",
+                    "category-social-media-events.html": "category-social-media-events.html.tmpl",
+                    "category-mobile.html":              "category-mobile.html.tmpl"
                 }
             },
         },
